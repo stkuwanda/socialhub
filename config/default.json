@@ -1,0 +1,4 @@
+{
+  "mongoURI":"mongodb+srv://myUser:Password123@s-hub.owwjm.mongodb.net/socialhub?retryWrites=true&w=majority",
+  "jwtSecret":"secret"
+}

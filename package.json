@@ -1,0 +1,29 @@
+{
+  "name": "socialhub",
+  "version": "1.0.0",
+  "description": "skeleton server for a social media web app",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "main": "server.js",
+  "author": "seynt-seraphim",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4"
+  }
+}
